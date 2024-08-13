@@ -1,8 +1,9 @@
-# Teacher Profile Frontend
+# Become Instructor Frontend
 
-This project is a responsive teacher profile frontend built using Next.js and styled with Tailwind CSS. It includes a navigation bar, a detailed profile section, teacher stats, work history, and education details.
+The "Become Instructor" page is part of a Next.js project that allows users to apply to become an instructor. It includes a form where users can provide their personal details, qualifications, and other relevant information. The form also includes a section for users to upload their profile photo and provide details about their teaching experience.
 
-![Screenshot 2024-08-12 193325](https://github.com/user-attachments/assets/4f15e74c-d8c8-4940-84f7-0464eaf1bab1)
+![image](https://github.com/user-attachments/assets/c4bd5fd0-73c1-429c-a355-b7dff7dd96d2)
+
 
 ## Table of Contents
 
@@ -49,7 +50,6 @@ To get a local copy of this project up and running on your machine, follow these
 ##Project Structure
 ###Here's an overview of the project's structure:
 
-   ![image](https://github.com/user-attachments/assets/a4745725-2ff5-4168-a7e6-d2841ffaf85d)
 
 
 
