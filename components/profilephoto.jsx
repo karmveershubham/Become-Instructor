@@ -1,19 +1,23 @@
-// components/ProfilePhotoUpload.js
 import React from 'react';
+import Image from 'next/image';
+import myImage from '../assets/profile.png';
 
 const ProfilePhotoUpload = () => {
   return (
-    <div className="border p-4 rounded-md shadow-md flex flex-col items-center">
-      <h3 className="text-xl font-semibold mb-4">Profile Photo Upload</h3>
-      <div className="w-32 h-32 bg-gray-200 rounded-full flex items-center justify-center">
-        {/* Placeholder for profile photo */}
-        <span className="text-gray-500">Profile Photo</span>
+    <div className="border p-6 rounded-md shadow-md flex flex-col items-center max-w-sm mx-auto">
+      <div className="relative w-[147px] h-[147px] mb-4">
+        <Image 
+          src={myImage} 
+          alt="Profile Photo"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-full"
+        />
       </div>
-      <input
-        type="file"
-        accept="image/*"
-        className="mt-4"
-      />
+      <p className="text-lg font-semibold text-gray-700 mb-2">Upload your Photo</p>
+      <button className="bg-blue-500 text-white py-2 px-4 rounded-md">
+        Select from Computer
+      </button>
     </div>
   );
 };

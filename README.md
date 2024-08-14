@@ -28,7 +28,7 @@ To get a local copy of this project up and running on your machine, follow these
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/your-username/teacher-profile.git
+   git clone https://github.com/your-username/Become-Instructor.git
 
 2. **Navigate to the project directory**
 
